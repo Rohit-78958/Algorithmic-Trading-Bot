@@ -30,7 +30,7 @@ def download_notebook_from_google_drive(notebook_link):
 @app.route('/api/execute_notebook', methods=['POST'])
 def execute_notebook():
     # Replace this with the actual Google Drive notebook link
-    notebook_link = request.form.get('notebook_link')
+    notebook_link = request.form.get('https://colab.research.google.com/drive/1mgUWEgPIcxooLXjgaT9mgYshRnBgTFeC?usp=sharing')
 
     # Download the notebook content from the link and read it
     notebook_path = download_notebook_from_google_drive(notebook_link)
