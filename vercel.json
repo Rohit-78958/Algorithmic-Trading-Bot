@@ -1,6 +1,6 @@
 {
   "crons": [{
-    "path": "/flask_bot",
+    "path": "/api/cron",
     "schedule": "0 10 * * *"
   }]
 }
