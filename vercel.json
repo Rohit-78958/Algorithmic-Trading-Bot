@@ -1,6 +1,6 @@
 {
   "crons": [{
-    "path": "/execute_notebook",
+    "path": "/flask_bot.py",
     "schedule": "0 10 * * *"
   }]
 }
