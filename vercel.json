@@ -1,0 +1,6 @@
+{
+  "crons": [{
+    "path": "/execute_notebook",
+    "schedule": "0 10 * * *"
+  }]
+}
